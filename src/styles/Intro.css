@@ -1,0 +1,26 @@
+.intro {
+    margin:auto;
+    text-align: center;
+    font-size: xx-large;
+}
+.wrapper {
+    display: inline-block;
+}
+.intro-video {
+    width: 100vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 20px;
+}
+
+.subheading {
+    color:grey
+}
+
+.button-group {
+    display: grid;
+    grid-template-columns: minmax(150px, 240px) minmax(150px, 240px);
+    width: 480px;
+    margin: 0 auto;
+}

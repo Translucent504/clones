@@ -1,0 +1,135 @@
+.works-with {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 150px auto;
+    font-size: xx-large;
+}
+.works-with p {
+    color :gray;
+}
+
+.works-with .buttons {
+    display: grid;
+    grid-template-columns: minmax(150px, 250px) minmax(150px, 250px);
+    justify-content: center;
+}
+
+.works-with .logos {
+    position: relative;
+    width: 1200px;
+    height: 500px;
+
+}
+.vlad-container p {
+    color :gray;
+}
+
+.vlad-container {
+    font-size: x-large;
+    position: absolute;
+    top: 180px;
+    left: 16%;
+}
+
+.laptop-container {
+    display: inline-block;
+    position: relative;
+    overflow: auto;
+    height: 550px;
+    margin-top: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+
+}
+
+.laptop {
+    position: absolute;
+    left: 5%;
+}
+
+.laptop-mic {
+    position: absolute;
+    left: 55%;
+}
+
+.skype-blur {
+    position: absolute;
+    right: 100px;
+    top: 80px;
+    filter: blur(10px) opacity(0.7);
+}
+
+.slack-blur {
+    position: absolute;
+    left: 200px;
+    top: 280px;
+    filter: blur(10px) opacity(0.7);
+}
+
+.skype {
+    position: absolute;
+    left: 100px;
+    top: 150px;
+}
+
+.appear {
+    position: absolute;
+    right: 20px;
+    bottom: 70px;
+}
+
+.fb {
+    position: absolute;
+    left: 400px;
+    top: 10px;
+}
+
+.viber {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.goto {
+    position: absolute;
+    left: 300px;
+    bottom: 30px;
+}
+
+.telegram {
+    position: absolute;
+    left: 10px;
+    top: 400px;
+}
+
+.zoom {
+    position: absolute;
+    right: 10%;
+    top: 40%;
+}
+
+.hangouts {
+    position: absolute;
+    right: 250px;
+    bottom: 60px;
+}
+
+.webex {
+    position: absolute;
+    right: 20%;
+    top: 20%;
+}
+
+.slack {
+    position: absolute;
+    right: 500px;
+    top: 120px;
+}
+
+.works-with .vlad-container,
+.works-with p,
+.works-with .buttons {
+    text-align: center;
+}

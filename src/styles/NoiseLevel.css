@@ -1,0 +1,32 @@
+.noise-level {
+    display:grid;
+    grid-template-columns: 50% 50%;
+    margin: auto;
+    box-shadow: 5px 5px 10px 2px dimgrey;
+    background-size: cover;
+    overflow: hidden;
+    max-height: 670px;
+    border-radius: 20px;
+    max-width: 1140px
+}
+
+.noise-level .noise-content-right .noisewave {
+    margin-top: -100px;
+    margin-left: -120px;
+}
+
+.noise-content-left {
+    color:white;
+    padding: 40px;
+    font-size: xx-large;
+}
+.noise-content-left p {
+    color: silver;
+}
+
+.noise-content-left button {
+    padding: 20px;
+    width: 400px;
+    border-radius: 20px;
+    cursor: pointer;
+}

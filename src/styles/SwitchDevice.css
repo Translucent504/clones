@@ -1,0 +1,38 @@
+.switch-device {
+    display:grid;
+    grid-template-columns: minmax(941px,1fr) minmax(400px,1fr);
+    margin-top: 200px;
+}
+.switch-device-right {
+    font-size :xx-large;
+}
+
+.switch-device-right p {
+    color: gray;
+}
+
+.switch-device-left {
+    position: relative;
+}
+
+.switch-device-left img {
+    position: absolute;
+}
+
+.laptopleft {
+    left: 20px;
+}
+
+.muted {
+    left: 420px;
+}
+
+.airpodsR {
+    top: 200px;
+    left: 250px;
+}
+
+.airpodsL {
+    top: 150px;
+    left: 160px;
+}
